@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <script src="script.js"></script>
+    <script src="js/jquery-min-jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cols-md-6">
+
+        </div>
+        <nav class="navbar navbar-inverse navbar-fixed-top ">
+            <div class="container-fluid " style="background-color: #ADEFD1FF">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                    <a class="navbar-brand" href="#" style="color:#00203FFF ">GRIP BANK</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="home.html" style="color:#00203FFF">Home</a></li>
+                        <li><a href="customer.html" style="color:#00203FFF">Customer List</a></li>
+                        <li><a href="transfermoney.html" style="color: #00203FFF">Transfer Money</a></li>
+                        <li class="active"><a href="transactionlist.html" style="color: #ADEFD1FF">Transaction History</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="about.html" style="color: #00203FFF"><span class="glyphicon glyphicon-log-in" ></span> About Us</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid ">
+        <h4 class="well well-fluid" style="text-align: center;" id="ha"><strong>TRANSACTION HISTORY</strong></h4>
+    </div>
+    <div class="tab">
+        <table class="table table-bordered table-striped table-responsive" style="text-align: center">
+            <thead class="thead-dark">
+                <tr>
+                    <th>SI NO:</th>
+                    <th> CUSTOMER NAME </th>
+                    <th> USERNA </th>
+                    <th> TRANSFER AMO </th>
+                    <th> TRANSACTION STATUS </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>James</td>
+                    <td>elepant1234@gmail.com</td>
+                    <td>6000</td>
+                    <td><a class="green">Sucessful</a></td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Benjamin</td>
+                    <td>adi1236@gmail.com</td>
+                    <td>4500</td>
+                    <td><a class="green">Sucessful</a></td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Mason</td>
+                    <td>arav1238@gmail.com</td>
+                    <td>7000</td>
+                    <td><a class="red">Failed</a></td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td>Olivia</td>
+                    <td>ruturaj@gmail.com</td>
+                    <td>5000</td>
+                    <td><a class="green">Sucessful</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
